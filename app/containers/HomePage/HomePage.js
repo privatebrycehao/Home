@@ -9,6 +9,7 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import ReposList from 'components/ReposList';
 import './style.scss';
+import linkedin from '../../images/LI-In-Bug.png';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   /**
@@ -38,9 +39,9 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
         </Helmet>
         <div className="home-page">
           <section className="centered">
-            <p>
-             Will be my home
-            </p>
+            <a href="https://www.linkedin.com/in/bryce-hao-1b5829bb/">
+              Linkedin
+            </a>
           </section>
           <section>
             <h2>Try me!</h2>
