@@ -1,10 +1,21 @@
 import React from 'react';
 import './style.scss';
+import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => (
   <footer>
-    <section>This project is licensed under the MIT license.</section>
-    <section>Made with <span role="img" aria-label="heart-emoji">❤️</span> by <a href="https://twitter.com/flexdinesh">Dinesh Pandiyan</a></section>
+    <section>This page is made by Bryce Hao.</section>
+    <div className="medias-wrapper">
+      <div className="medias-wrapper-single">
+        <SocialIcon url="https://www.linkedin.com/in/bryce-hao-1b5829bb/" />
+      </div>
+      <div className="medias-wrapper-single">
+        <SocialIcon url="https://www.facebook.com/myhaoboyi" />
+      </div>
+      <div className="medias-wrapper-single">
+        <SocialIcon url="https://github.com/privatebrycehao" />
+      </div>
+    </div>
   </footer>
 );
 

@@ -9,8 +9,8 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
   render() {
     return (
       <div className="header">
-        <div className="header_introduce">
-          Hey.
+        <div className="header_hey">
+          Hey
         </div>
         <div className="header_introduce">
           You finally here.
