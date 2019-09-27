@@ -13,10 +13,10 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
           Hey
         </div>
         <div className="header_introduce">
-          You finally here.
+          You are finally here.
         </div>
         <div className="header_introduce-line">
-           I`m Bryce, A Software Engineer III from ticketmaster.
+           I`m Bryce, A Software Engineer from ticketmaster.
         </div>
         <div className="nav-bar">
         </div>
