@@ -8,19 +8,22 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
 // </Link>
   render() {
     return (
-      <div className="header">
-        <div className="header_hey">
-          Hey
-        </div>
-        <div className="header_introduce">
-          You are finally here.
-        </div>
-        <div className="header_introduce-line">
-           I`m Bryce, A Software Engineer from ticketmaster.
-        </div>
-        <div className="nav-bar">
-        </div>
+      <div>
+
       </div>
+      // <div className="header">
+      //   <div className="header_hey">
+      //     Hey
+      //   </div>
+      //   <div className="header_introduce">
+      //     You are finally here.
+      //   </div>
+      //   <div className="header_introduce-line">
+      //      I`m Bryce, A Software Engineer from ticketmaster.
+      //   </div>
+      //   <div className="nav-bar">
+      //   </div>
+      // </div>
     );
   }
 }
