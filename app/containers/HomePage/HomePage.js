@@ -8,7 +8,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import './style.scss';
-// import linkedin from '../../images/LI-In-Bug.png';
+import title from '../../images/title.png';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   /**
@@ -25,6 +25,8 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
     return (
       <article>
         <Helmet>
+          <link rel="icon" type="image/png" href={title} sizes="16x16" />
+
           <title>Bryce`s Home</title>
         </Helmet>
         <div className="home-page">
