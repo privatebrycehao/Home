@@ -5,22 +5,11 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import './style.scss';
 import title from '../../images/title.png';
 
-export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
-  /**
-   * when initial state username is not null, submit the form to load repos
-   */
-  // componentDidMount() {
-  //   const { username, onSubmitForm } = this.props;
-  //   if (username && username.trim().length > 0) {
-  //     onSubmitForm();
-  //   }
-  // }
-
+export default class HomePage extends React.PureComponent {
   render() {
     return (
       <article>
@@ -54,8 +43,3 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
     );
   }
 }
-
-HomePage.propTypes = {
-  onSubmitForm: PropTypes.func,
-  username: PropTypes.string,
-};
