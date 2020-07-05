@@ -6,7 +6,6 @@ import constants from './constants';
 
 export default class Resume extends React.PureComponent {
   render() {
-    console.log(constants);
     return (
       <article>
         <Helmet>
