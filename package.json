@@ -74,6 +74,7 @@
     "babel-plugin-react-transform": "3.0.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "circular-dependency-plugin": "5.0.2",
+    "components": "^0.1.0",
     "css-loader": "3.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",

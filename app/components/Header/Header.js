@@ -1,31 +1,31 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import './style.scss';
+import HeaderWrapper from './HeaderWapper/HeaderWrapper';
 
-class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
-// <Link className="router-link" to="/">
-// Home
-// </Link>
+const NAVIGATION = {
+  home: {
+    route: '/',
+    content: 'home'
+  },
+  resume: {
+    route: '/resume',
+    content: 'Resume'
+  }
+};
+class Header extends React.PureComponent {
   render() {
     return (
-      <div>
-
+      <div className="header">
+        <div className="nav-bar">
+          <HeaderWrapper className="router-link" link={NAVIGATION.home} />
+          <HeaderWrapper className="router-link" link={NAVIGATION.resume} />
+        </div>
       </div>
-      // <div className="header">
-      //   <div className="header_hey">
-      //     Hey
-      //   </div>
-      //   <div className="header_introduce">
-      //     You are finally here.
-      //   </div>
-      //   <div className="header_introduce-line">
-      //      I`m Bryce, A Software Engineer from ticketmaster.
-      //   </div>
-      //   <div className="nav-bar">
-      //   </div>
-      // </div>
     );
   }
 }
 
 export default Header;
+// {/*<Link className="router-link" to="/">*/}
+// {/* Home*/}
+// {/*</Link>*/}

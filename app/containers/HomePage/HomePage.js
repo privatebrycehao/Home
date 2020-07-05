@@ -29,8 +29,6 @@ export default class HomePage extends React.PureComponent {
               <div className="home-page_introduce-line">
                 I`m Bryce, A Software Engineer from ticketmaster.
               </div>
-              <div className="nav-bar">
-              </div>
             </div>
           </section>
           <section className="centered">
