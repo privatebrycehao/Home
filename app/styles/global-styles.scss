@@ -2,15 +2,13 @@ html,
 body {
   height: 100%;
   width: 100%;
-}
 
-body {
   font-family: monospace;
 }
 
 #app {
   display: flex;
-  background-color: #fafafa;
+
   min-height: 100%;
   min-width: 100%;
 }
@@ -19,4 +17,15 @@ p,
 label {
   font-family: Arial, Times, 'Times New Roman', serif;
   line-height: 1.5em;
+}
+.a-clear{
+  text-decoration: none;
+  color: #262626;
+}
+.a-clear:hover{
+  text-decoration: underline;
+  color: #026cdf;
+}
+.font-50 {
+  font-size: 50px;
 }

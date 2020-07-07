@@ -5,11 +5,11 @@ import HeaderWrapper from './HeaderWapper/HeaderWrapper';
 const NAVIGATION = {
   home: {
     route: '/',
-    content: 'home'
+    content: 'HOME'
   },
   resume: {
     route: '/resume',
-    content: 'Resume'
+    content: 'RESUME'
   }
 };
 class Header extends React.PureComponent {

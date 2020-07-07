@@ -5,11 +5,12 @@ body p{
 }
 .app-wrapper {
   position: relative;
-  width: 85%;
-  max-width: 85%;
-  margin: 0 auto;
+  //background: url("https://brycehao77.s3.us-east-2.amazonaws.com/2U3A3976.JPG") no-repeat center center fixed;
+  //background-size: cover;
+  width: 100%;
+  margin: 0;
   display: flex;
   min-height: 100%;
-  padding: 0 16px;
+  padding: 0;
   flex-direction: column;
 }

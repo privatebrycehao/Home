@@ -1,24 +1,63 @@
 .home-page {
-  &_hey {
-    font-size: 120px;
-    max-width: 80%;
-    margin: 50px auto 0 auto;
-    text-align: center;
+  .logo{
+    display: inline-block;
+    position: relative;
+    width: 26px;
+    height: 26px;
+    bottom: 2px;
+    left: 2px;
+  }
+  .external-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .ticketmaster:hover {
+    transition: 0.3s;
+    cursor: default;
+    text-decoration: none;
+    color: #026cdf;
+  }
+  .livenation:hover {
+    transition: 0.3s;
+    cursor: default;
+    text-decoration: none;
+    color: #e61c39;
+  }
+  &-portfolio{
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image:url("https://brycehao77.s3.us-east-2.amazonaws.com/2U3A3976.JPG");
+    background-size: cover;
+    animation: fadein 2s;
+    position: relative;
+    width: 100%;
+    height: 700px;
   }
   &_introduce {
+    min-height: 400px;
     font-size: 30px;
     max-width: 80%;
-    padding-top: 102px;
+    padding-top: 35px;
     margin: 0 auto;
     font-family: monospace;
     text-align: center;
     &-line{
-      font-size: 30px;
-      max-width: 80%;
+      line-height: 1;
+      font-size: 35px;
       padding-top: 35px;
       margin: 0 auto;
       font-family: monospace;
-      text-align: center;
+      text-align: left;
+    }
+    &-space {
+      line-height: 2;
+      font-size: 16px;
+      padding-top: 35px;
+      margin: 0 auto;
+      font-family: monospace;
+      text-align: left;
     }
   }
   img {
@@ -42,7 +81,7 @@
   }
 
   section {
-    margin: 3em auto;
+    margin: 4em auto;
 
     &:first-child {
       margin-top: 0;

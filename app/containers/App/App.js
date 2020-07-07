@@ -22,7 +22,9 @@ const App = () => (
       <Route exact path="/resume">
         <Resume />
       </Route>
-      <Route path="" component={NotFoundPage} />
+      <Route path="">
+        <NotFoundPage />
+      </Route>
     </Switch>
     <Footer />
   </div>
