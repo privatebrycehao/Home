@@ -12,7 +12,7 @@ This boilerplate features all the latest tools and practices in the industry.
 - _Test_ - Jest with Enzyme
 - _Lint_ - ESlint
 - _Styles_ - SCSS Styling
-
+F
 ## Quick start
 
 1. Clone this repo using `git clone https://github.com/flexdinesh/react-redux-boilerplate.git`
