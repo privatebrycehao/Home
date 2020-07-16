@@ -2,7 +2,6 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
@@ -16,13 +15,10 @@ const App = () => (
       <Route exact path="/">
         <HomePage />
       </Route>
-      <Route exact path="/features">
-        <FeaturePage />
-      </Route>
       <Route exact path="/resume">
         <Resume />
       </Route>
-      <Route path="">
+      <Route path="*">
         <NotFoundPage />
       </Route>
     </Switch>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import './style.scss';
-import { Link } from 'react-router-dom';0
+import { Link } from 'react-router-dom';
 import title from '../../images/title.png';
 
 export default class HomePage extends React.PureComponent {
@@ -52,10 +52,6 @@ export default class HomePage extends React.PureComponent {
                   <Link to="/resume" className="a-clear">Resume</Link>
                 </div>
               </div>
-              {/*<div className="home-page-portfolio"></div>*/}
-              {/*<div className="home-page-portfolio"></div>*/}
-              {/*<div className="home-page-portfolio"></div>*/}
-              {/*<div className="home-page-portfolio"></div>*/}
             </div>
           </section>
         </div>
