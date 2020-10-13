@@ -23,10 +23,10 @@ export default class HomePage extends React.PureComponent {
                   A Software Engineer and Photographer
                 </div>
                 <div className="home-page_introduce-line">
-                  New York City/ Washington D.C
+                  Bay Area/ SF/ California
                 </div>
                 <div className="home-page_introduce-space">
-                  Current working on box office sales tool at
+                  I was working on box office sales tool at
                   <a className="external-link ticketmaster" href="https://www.ticketmaster.com"> Ticketmaster</a>
                   {/* eslint-disable-next-line jsx-a11y/alt-text */}
                   <img className="logo" src="https://brycehao77.s3.us-east-2.amazonaws.com/Solid-T-Azure.png" />
@@ -43,7 +43,7 @@ export default class HomePage extends React.PureComponent {
                   <a className="a-clear" href="https://github.com/privatebrycehao">Github</a> /  <a className="a-clear" href="https://dev.to/bryce_hao"> dev.to</a>
                   <br />
                   Email:
-                  <a className="a-clear" href="mailto:brycehao77@gmail.com">Email</a>
+                  <a className="a-clear" href="mailto:brycehao@gmail.com">Email</a>
                   <br />
                   Photographer:
                   <Link to="/photos" className="a-clear">Photo Sample</Link>
