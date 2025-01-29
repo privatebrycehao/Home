@@ -26,15 +26,7 @@ export default class HomePage extends React.PureComponent {
                   Bay Area/ SF/ California
                 </div>
                 <div className="home-page_introduce-space">
-                  I was working on box office sales tool at
-                  <a className="external-link ticketmaster" href="https://www.ticketmaster.com"> Ticketmaster</a>
-                  {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                  <img className="logo" src="https://brycehao77.s3.us-east-2.amazonaws.com/Solid-T-Azure.png" />
-                  and
-                  {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                  <a className="external-link livenation" href="https://www.livenation.com"> Live Nation </a>
-                  {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                  <img className="logo" src="https://brycehao77.s3.us-east-2.amazonaws.com/3494dabe-e984-43ad-a6c3-bbc56338510c_medium.png" />
+                  Owner of Web Ads Solution Creation & Ad Format User Journey at TikTok
                 </div>
                 <div className="home-page_introduce-space">
                   Find me:
